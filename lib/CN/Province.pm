@@ -9,7 +9,7 @@ our @ISA = qw(Exporter);
 
 our @EXPORT = qw(abbr2province province2abbr all_province all_abbr);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 my %abbr_province = ( 
     'AH' => '安徽',
@@ -72,6 +72,8 @@ sub all_abbr {
 1;
 
 __DATA__
+
+=encoding utf8
 
 =head1 NAME
 
